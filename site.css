@@ -1,0 +1,468 @@
+body {
+	font-family: 'Arvo' serif; 
+	font-size: 16px;
+	/*background-color: #292525;*/
+	background-image: url("images/fuji.jpg");
+	/*color: #696969;*/
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: black;
+
+	padding: 3px;
+}
+
+nav {
+	margin-top: 15px;
+}
+
+hr.style-one {
+	border: 0;
+	height: 1px;
+	background: black;
+}
+
+#instructorName {
+	width: 200px;
+	text-align:left;
+}
+#aboutInstructor {
+	height:375px;
+	width: 900px;
+	margin-left:60px;
+}
+#instructorPicture {
+	width: 350px;
+	float: left;
+	height: 350px;
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;
+}
+#aboutMe {
+	/*width: 500px;*/
+	margin-left:75px;
+	float: left;
+	height: 350px;
+	font-size: 20px;
+	font-family: 'Arvo', serif;
+}
+#main {
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #ffffff;
+	border-radius: 0 0 5px 5px;
+}
+#calendar2 {
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*background-color: #a1bddd;
+	border-radius: 5px 5px 5px 5px;
+	border: 4px solid #003d99;*/
+	font-family: 'Arvo', serif;
+	margin-bottom: 15px;
+}
+#calendarHeader {
+	/*width: 300px;*/
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #002db3;
+	background-image: linear-gradient(to right, #b3d9ff, #002db3, #b3d9ff);
+}
+#month {
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	vertical-align: middle;
+	font-family: 'Gruppo';
+	font-size: 2em;
+	display: inline-block;
+	color: white;
+	text-shadow: 2px 2px black;
+}
+#calendarButtonLeft, #calendarButtonRight {
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background: none;
+	border: none;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 150%;
+}
+#calendarButtonLeft:hover, #calendarButtonRight:hover {
+	text-shadow:
+	-1px -1px 0 #b3d9ff,
+	1px -1px 0 #b3d9ff,
+	-1px 1px 0 #b3d9ff,
+	1px 1px 0 #b3d9ff;
+}
+#week {
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	/*font-family: 'Arvo', serif;*/
+	font-family: 'Gruppo';
+	/*background-color: #ffffff;*/
+	border-radius: 5px 5px 5px 5px;
+	width: auto;
+}
+#weekday {
+	padding: 10px;
+	width: 95px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+#calendarDay {
+	padding: 10px;
+	width: 95px;
+	text-align: center;
+	font-size: 80%;
+	vertical-align: bottom;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid black;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 95px;
+}
+#dayNumber {
+	text-align: right;
+	vertical-align: top;
+	font-size: 150%;
+	margin-bottom: 10px;
+	color: black;
+}
+#webTitle {
+	font-size:52px;
+	/*font-family: 'Josefin Slab', serif;*/
+	font-family: 'Arvo', serif;
+	font-weight: 100;
+	height:100px;
+	padding-top:25px;
+	padding-bottom:30px;
+	color: black;
+}
+#colorBoxWrapper{
+
+}
+#colorBox {
+	border: 2px solid black;
+	margin: 10px;
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#colorBoxText {
+	text-align: left;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 5px;
+	font-size: 75%;
+}
+#colorBox.walterMurray{
+	background: #6600cc;
+}
+#colorBox.albertCommunityCentre{
+	background: #cc0000;
+}
+#colorBox.popeJohnPaulII{
+	background: #009933;
+}
+#webTitleLink a:hover {
+	text-decoration: none;
+}
+#foot01 {
+	margin-top: 20px;
+	color: #941313;
+}
+
+#shotokanLogo {
+	width:120px;
+	height:100px;
+	float:left;
+	clear:both;
+}
+#largeLogo {
+	height:400px;
+	width:930px;
+	margin:0 auto;
+	text-align:center;
+}
+#addressInfo {
+	color:black;
+}
+#wrapper {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+}
+#contact_header {
+	text-align: center;
+}
+#map, #calendar {
+	margin-top: 30px; 
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+h1 {
+	font-family: 'Arvo', serif;
+	border-bottom: 3px solid black;
+	color: #002db3;
+	font-size: 30px;
+}
+h2 {
+	font-family: 'Arvo', serif;
+/*	color: #941313;*/
+	color: dimgray;
+	font-size: 20px;
+	text-align: left;
+/*	border-bottom: 2px solid black;*/
+}
+
+table {
+	width:100%;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	padding: 5px;
+	font-family: 'Arvo',serif;
+}
+
+th {
+	text-align: left;
+	color: black;
+	/*background-color: #f1f1f1;*/
+	/*background-color: #787878;*/
+	/*background-color: #a1bddd;*/
+	background-color: #b3d9ff;
+	border: 2px solid black;
+}
+
+table tr {
+	background-color: ffffff;
+}
+tr {
+	margin-left:50px;
+}
+td {
+	color: black;
+	text-align: center;
+	border: 2px solid black;
+}
+p {
+	padding-left: 50px;
+	margin:0;
+	font-family: 'Arvo', serif;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;
+}
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#cssmenu {
+	line-height: 1;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+	border-bottom: 2px solid #002080;
+	width: auto;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+#cssmenu a {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+	color: #ffffff;
+	display: block;
+	font-family: 'Arvo', serif;
+	letter-spacing: 2px;
+	padding: 19px 20px;
+	text-decoration: none;
+}
+#cssmenu ul {
+	list-style: none;
+}
+#cssmenu > ul > li {
+	display: inline-block;
+	float: left;
+	margin: 0;
+}
+#cssmenu.align-center {
+	text-align: center;
+}
+#cssmenu.align-center > ul > li {
+	float: none;
+}
+#cssmenu.align-center ul ul {
+	text-align: left;
+}
+#cssmenu.align-right > ul {
+	float: right;
+}
+#cssmenu.align-right ul ul {
+	text-align: right;
+}
+#cssmenu > ul > li > a {
+	color: #000000;
+	font-size: 17px;
+}
+#cssmenu > ul > li:hover:after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #002080;
+	margin-left: -10px;
+}
+#cssmenu > ul > li:first-child > a {
+	border-radius: 5px 0 0 0;
+	-moz-border-radius: 5px 0 0 0;
+	-webkit-border-radius: 5x 0 0 0;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+	border-radius: 0 5px 0 0;
+	-moz-border-radius: 0 5px 0 0;
+	-webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+	color: #000000;
+	box-shadow: inset 0 0 3px #d9d9d9;
+	-moz-box-shadow: inset 0 0 3px #d9d9d9;
+	-webkit-box-shadow: inset 0 0 3px #d9d9d9;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100% #f2f2f2));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -ms-linear-gradient(top, #ffff 0%, #f2f2f2 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+}
+#cssmenu .has-sub {
+	z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+	display: block;
+}
+#cssmenu .has-sub ul {
+	display: none;
+	position: absolute;
+	width: 200px;
+	top: 100%;
+	left: 0;
+}
+#cssmenu.align-right .has-sub ul {
+	left: auto;
+	right: 0;
+}
+#cssmenu .has-sub ul li {
+	*margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+	background: #002080;
+	/*border-bottom: 2px dotted #0000ff;*/
+	border-bottom: 2px solid #000000;
+	font-size: 15px;
+	filter: none;
+	display: block;
+	line-height: 120%;
+	padding: 10px; 
+	color: #ffffff;
+}
+#cssmenu .has-sub ul li:hover a {
+	background: #2e2ee3;
+}
+#cssmenu ul ul li:hover > a {
+       color: #ffffff;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+	display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+	left: auto;
+	right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+	background: #2e2ee3;
+	/*border-bottom: 2px dotted #0000ff;*/
+	border-bottom: 2px solid #000000;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+	background: #a1bddd;
+	color: #2e2ee3;
+	border-bottom: 2px solid #000000;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a, 
+#cssmenu ul ul ul li:las-child >a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+	border-bottom: 0;
+}
+	  
+.highlight {
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#calendarDay.diffMonth {
+	background-color: #cce6ff;
+}
