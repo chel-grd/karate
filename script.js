@@ -19,6 +19,7 @@ document.getElementById("nav02").innerHTML =
 "</li>" +
 "<li id='newsTab'><a href='news.html'><span>Club News</span></a></li>" +
 "<li id='linksTab'><a href='links.html'><span>Links</span></a></li>" +
+"<li id='downloadsTab'><a href='downloads.html><span>Downloads</span></a></li>" +
 "<li id='contactTab' class='last'><a href='contact.html'><span>Contact</span></a></li>" +
 "</ul>" +
 "</div>";
@@ -39,8 +40,12 @@ switch(pageTitle) {
 	case "Saskatoon Shotokan Karate":
 		$("#indexTab").addClass("active");
 		break;
+	case "Downloads":
+		$("#downloadsTab").addClass("active");
+		break;
 	case "Contact":
 		$("#contactTab").addClass("active");
+		break;
 	default:
 		break;	
 }
