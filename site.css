@@ -73,7 +73,7 @@ hr.style-one {
 	margin-right: auto;
 	text-align: center;
 	background: #002db3;
-	background-image: linear-gradient(to right, #b3d9ff, #002db3, #b3d9ff);
+	background-image: linear-gradient(to right, white, #b3d9ff, #002db3, #b3d9ff, white);
 }
 #month {
 	padding: 5px;
