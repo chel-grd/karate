@@ -1746,6 +1746,7 @@ function goToPastMonth() {
 	var currentMonthName = document.getElementById("month").innerHTML;
     switch (currentMonthName) {
     case 'JANUARY':
+	document.getElementById("calendar2").innerHTML = januaryHTML;
     	if (month === 0) {
     		highlightToday();
     	}
@@ -1900,6 +1901,10 @@ function goToNextMonth() {
     	}
     	break;
     case 'DECEMBER':
+	document.getElementById("calendar2").innerHTML = decemberHTML;
+	if (month === 11) {
+		highlightToday();
+	}
     	break;
     default:
     	break;
