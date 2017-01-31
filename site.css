@@ -47,7 +47,7 @@ hr.style-one {
 	float: left;
 	height: 350px;
 	font-size: 20px;
-	font-family: 'Arvo', serif;
+	font-family: 'Raleway', serif;
 }
 #main {
 	padding: 5px;
@@ -80,7 +80,7 @@ hr.style-one {
 	padding-left: 15px;
 	padding-right: 15px;
 	vertical-align: middle;
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Raleway', serif;
 	font-size: 2em;
 	display: inline-block;
 	color: white;
@@ -109,8 +109,8 @@ hr.style-one {
 	padding-right: 15px;
 	text-align: center;
 	/*font-family: 'Arvo', serif;*/
-	font-family: 'Josefin Slab', serif;
-	font-weight: bold;
+	font-family: 'Raleway', serif;
+	font-weight: regular;
 	/*background-color: #ffffff;*/
 	border-radius: 5px 5px 5px 5px;
 	width: auto;
@@ -127,7 +127,7 @@ hr.style-one {
 	padding: 10px;
 	width: 95px;
 	text-align: center;
-	font-size: 70%;
+	font-size: 60%;
 	vertical-align: bottom;
 	display: inline-block;
 	background-color: #ffffff;
@@ -185,6 +185,7 @@ hr.style-one {
 	text-decoration: none;
 }
 #foot01 {
+	font-family: 'Raleway';
 	margin-top: 20px;
 	color: #941313;
 }
@@ -240,7 +241,7 @@ table {
 table, th, td {
 	border-collapse: collapse;
 	padding: 5px;
-	font-family: 'Arvo',serif;
+	font-family: 'Raleway',serif;
 }
 
 th {
@@ -454,7 +455,7 @@ a:hover {
 #cssmenu ul ul li.last > a,
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul ul li.last > a, 
-#cssmenu ul ul ul li:las-child >a,
+#cssmenu ul ul ul li:last-child >a,
 #cssmenu .has-sub ul li:last-child > a,
 #cssmenu .has-sub ul li.last > a {
 	border-bottom: 0;
