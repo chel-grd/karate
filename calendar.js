@@ -1,6 +1,6 @@
 
 var januaryHTML =
-"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>January</div><button id='calendarButtonRight'> > </button></div>" +
+"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>JANUARY</div><button id='calendarButtonRight'> > </button></div>" +
 "<div id='week'>" +
 "<div id='weekday'>SUN</div>" +
 "<div id='weekday'>MON</div>" +
@@ -131,7 +131,7 @@ var januaryHTML =
 "</div>" ;
 
 var februaryHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>February</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>FEBRUARY</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -272,7 +272,7 @@ var februaryHTML =
 	"</div>" ;
 
 var marchHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>March</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>MARCH</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -414,7 +414,7 @@ var marchHTML =
 	"</div>" ;
 
 var aprilHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>April</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>APRIL</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -581,7 +581,7 @@ var aprilHTML =
 	"</div>" ;
 
 var mayHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>May</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>MAY</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -723,7 +723,7 @@ var mayHTML =
 	"</div>" ;
 
 var juneHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>June</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>JUNE</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -862,7 +862,7 @@ var juneHTML =
 	"</div>" ;
 
 var julyHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>July</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>JULY</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -1015,7 +1015,7 @@ var julyHTML =
 	"</div>" ;
 
 var augustHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>August</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>AUGUST</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -1143,7 +1143,7 @@ var augustHTML =
 	"</div>" ;
 
 var septemberHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>September</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>SEPTEMBER</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -1271,7 +1271,7 @@ var septemberHTML =
 	"</div>" ;
 
 var octoberHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>October</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>OCTOBER</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -1399,7 +1399,7 @@ var octoberHTML =
 	"</div>" ;
 
 var novemberHTML =
-	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>November</div><button id='calendarButtonRight'> > </button></div>" +
+	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>NOVEMBER</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
 	"<div id='weekday'>MON</div>" +
@@ -1527,7 +1527,7 @@ var novemberHTML =
 	"</div>" ;
 
 var decemberHTML =
-"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>December</div><button id='calendarButtonRight'> > </button></div>" +
+"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>DECEMBER</div><button id='calendarButtonRight'> > </button></div>" +
 "<div id='week'>" +
 "<div id='weekday'>SUN</div>" +
 "<div id='weekday'>MON</div>" +
@@ -1745,72 +1745,72 @@ function goToPastMonth() {
 	console.log('event fired');
 	var currentMonthName = document.getElementById("month").innerHTML;
     switch (currentMonthName) {
-    case 'January':
+    case 'JANUARY':
     	if (month === 0) {
     		highlightToday();
     	}
     	break;
-    case 'February':
+    case 'FEBRUARY':
     	document.getElementById("calendar2").innerHTML = januaryHTML;
     	if (month === 0) {
     		highlightToday();
     	}
     	break;
-    case 'March':
+    case 'MARCH':
     	document.getElementById("calendar2").innerHTML = februaryHTML;
     	if (month === 1) {
     		highlightToday();
     	}
     	break;
-    case 'April':
+    case 'APRIL':
     	document.getElementById("calendar2").innerHTML = marchHTML;
     	if (month === 2) {
     		highlightToday();
     	}
     	break;
-    case 'May':
+    case 'MAY':
     	document.getElementById("calendar2").innerHTML = aprilHTML;
     	if (month === 3) {
     		highlightToday();
     	}
     	break;
-    case 'June':
+    case 'JUNE':
     	document.getElementById("calendar2").innerHTML = mayHTML;
     	if (month === 4) {
     		highlightToday();
     	}
     	break;
-    case 'July':
+    case 'JULY':
     	document.getElementById("calendar2").innerHTML = juneHTML;
     	if (month === 5) {
     		highlightToday();
     	}
     	break;
-    case 'August':
+    case 'AUGUST':
     	document.getElementById("calendar2").innerHTML = julyHTML;
     	if (month === 6) {
     		highlightToday();
     	}
     	break;
-    case 'September':
+    case 'SEPTEMBER':
     	document.getElementById("calendar2").innerHTML = augustHTML;
     	if (month === 7) {
     		highlightToday();
     	}
     	break;
-    case 'October':
+    case 'OCTOBER':
     	document.getElementById("calendar2").innerHTML = septemberHTML;
     	if (month === 8) {
     		highlightToday();
     	}
     	break;
-    case 'November':
+    case 'NOVEMBER':
     	document.getElementById("calendar2").innerHTML = octoberHTML;
     	if (month === 9) {
     		highlightToday();
     	}
     	break;
-    case 'December':
+    case 'DECEMBER':
     	document.getElementById("calendar2").innerHTML = novemberHTML;
     	if (month === 10) {
     		highlightToday();
@@ -1833,73 +1833,73 @@ function goToNextMonth() {
 	
 	var currentMonthName = document.getElementById("month").innerHTML;
     switch (currentMonthName) {
-    case 'January':
+    case 'JANUARY':
     	document.getElementById("calendar2").innerHTML = februaryHTML;
     	if (month === 1){
     		highlightToday();
     	}
     	break;
-    case 'February':
+    case 'FEBRUARY':
     	document.getElementById("calendar2").innerHTML = marchHTML;
     	if (month === 2){
     		highlightToday();
     	}
     	break;
-    case 'March':
+    case 'MARCH':
     	document.getElementById("calendar2").innerHTML = aprilHTML;
     	if (month === 3){
     		highlightToday();
     	}
     	break;
-    case 'April':
+    case 'APRIL':
     	document.getElementById("calendar2").innerHTML = mayHTML;
     	if (month === 4){
     		highlightToday();
     	}
     	break;
-    case 'May':
+    case 'MAY':
     	document.getElementById("calendar2").innerHTML = juneHTML;
     	if (month === 5){
     		highlightToday();
     	}
     	break;
-    case 'June':
+    case 'JUNE':
     	document.getElementById("calendar2").innerHTML = julyHTML;
     	if (month === 6){
     		highlightToday();
     	}
     	break;
-    case 'July':
+    case 'JULY':
     	document.getElementById("calendar2").innerHTML = augustHTML;
     	if (month === 7){
     		highlightToday();
     	}
     	break;
-    case 'August':
+    case 'AUGUST':
     	document.getElementById("calendar2").innerHTML = septemberHTML;
     	if (month === 8){
     		highlightToday();
     	}
     	break;
-    case 'September':
+    case 'SEPTEMBER':
     	document.getElementById("calendar2").innerHTML = octoberHTML;
     	if (month === 9){
     		highlightToday();
     	}
     	break;
-    case 'October':
+    case 'OCTOBER':
     	document.getElementById("calendar2").innerHTML = novemberHTML;
     	if (month === 10){
     		highlightToday();
     	}
     	break;
-    case 'November':
+    case 'NOVEMBER':
     	document.getElementById("calendar2").innerHTML = decemberHTML;
     	if (month === 11){
     		highlightToday();
     	}
     	break;
-    case 'December':
+    case 'DECEMBER':
     	break;
     default:
     	break;
