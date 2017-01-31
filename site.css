@@ -80,7 +80,7 @@ hr.style-one {
 	padding-left: 15px;
 	padding-right: 15px;
 	vertical-align: middle;
-	font-family: 'Arvo', serif;
+	font-family: 'Josefin Slab', serif;
 	font-size: 2em;
 	display: inline-block;
 	color: white;
@@ -109,7 +109,8 @@ hr.style-one {
 	padding-right: 15px;
 	text-align: center;
 	/*font-family: 'Arvo', serif;*/
-	font-family: 'Arvo', serif;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
 	/*background-color: #ffffff;*/
 	border-radius: 5px 5px 5px 5px;
 	width: auto;
@@ -126,7 +127,7 @@ hr.style-one {
 	padding: 10px;
 	width: 95px;
 	text-align: center;
-	font-size: 60%;
+	font-size: 70%;
 	vertical-align: bottom;
 	display: inline-block;
 	background-color: #ffffff;
