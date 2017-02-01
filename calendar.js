@@ -1725,16 +1725,9 @@ default:
 	break;
 }
 
-$("div").filter(function() {
-	var calendarDay = $(this);
-	console.log('finding current day');
-	if ( $(this).parent().not(".diffMonth") ) {
-		console.log($(this).parent().className);
-    		return $(this).text() === ""+currentDay+"";
-	} 
-	else {
-		return;
-	}
+$("div").not(".diffMonth").filter(function() {
+	console.log('this better work');
+	return $(this).children().text() === ""+currentDay+"";
 }).css("color","#33cc00");
 
 });
