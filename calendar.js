@@ -155,7 +155,6 @@ var februaryHTML =
 	"</div>" +
 	"<div id='calendarDay'>" +
 	"<div id='dayNumber'>1</div>" +
-    	"test" +
 	"</div>" +
 	"<div id='calendarDay' style='color:#cc0000'>" +
 	"<div id='dayNumber'>2</div>" +
@@ -258,7 +257,6 @@ var februaryHTML =
 	"</div>" +
 	"<div id='calendarDay' class='diffMonth'>" +
 	"<div id='dayNumber'>1</div>" +
-    	"test" +
 	"</div>" +
 	"<div id='calendarDay' class='diffMonth' style='color:#6600cc'>" +
 	"<div id='dayNumber'>2</div>" +
@@ -1728,7 +1726,7 @@ default:
 }
 
 $("div").not(".diffMonth").filter(function() {
-	console.log('this better work');
+	console.log('finding current day');
 	return $(this).children().text() === ""+currentDay+"";
 }).children().css("color","#33cc00");
 
@@ -1922,10 +1920,10 @@ function goToNextMonth() {
 function highlightToday (){
 	var d = new Date();
 	var currentDay = d.getDate();
+	
+	$("div").not(".diffMonth").filter(function() {
+		console.log('finding current day');
+		return $(this).children().text() === ""+currentDay+"";
+	}).children().css("color","#33cc00");
 
-	$("div").filter(function() {
-		if ( $(this).parent().not(".diffMonth") ) {
-	    		return  $(this).text() === ""+currentDay+"";
-		}
-	}).css("color","#33cc00");
 }
