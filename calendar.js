@@ -1727,7 +1727,7 @@ default:
 
 $("div").filter(function() {
     return $(this).text() === ""+currentDay+"";
-}).css("color","#33cc00");
+}).not(".diffMonth").css("color","#33cc00");
 
 });
 
