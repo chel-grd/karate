@@ -1921,6 +1921,6 @@ function highlightToday (){
 	var currentDay = d.getDate();
 
 	$("div").filter(function() {
-	    return ( ($(this).text() === ""+currentDay+"") && ($(this).parent().not(."diffMonth")) );
+	    return ( ($(this).text() === ""+currentDay+"") && ($(this).parent().not(".diffMonth")) );
 	}).css("color","#33cc00");
 }
