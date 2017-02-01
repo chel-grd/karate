@@ -1726,7 +1726,9 @@ default:
 }
 
 $("div").filter(function() {
-    return ( ($(this).text() === ""+currentDay+"") && ($(this).parent().not(".diffMonth")) );
+	if ( $(this).parent().not(".diffMonth") && $(this).text() === ""+currentDay+"" ) {
+    		return $(this);
+	}
 }).css("color","#33cc00");
 
 });
@@ -1921,6 +1923,8 @@ function highlightToday (){
 	var currentDay = d.getDate();
 
 	$("div").filter(function() {
-	    return ( ($(this).text() === ""+currentDay+"") && ($(this).parent().not(".diffMonth")) );
+		if ( $(this).parent().not(".diffMonth") && $(this).text() === ""+currentDay+"" ) {
+	    		return  $(this);
+		}
 	}).css("color","#33cc00");
 }
