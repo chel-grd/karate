@@ -155,6 +155,7 @@ var februaryHTML =
 	"</div>" +
 	"<div id='calendarDay'>" +
 	"<div id='dayNumber'>1</div>" +
+    	"test" +
 	"</div>" +
 	"<div id='calendarDay' style='color:#cc0000'>" +
 	"<div id='dayNumber'>2</div>" +
@@ -257,6 +258,7 @@ var februaryHTML =
 	"</div>" +
 	"<div id='calendarDay' class='diffMonth'>" +
 	"<div id='dayNumber'>1</div>" +
+    	"test" +
 	"</div>" +
 	"<div id='calendarDay' class='diffMonth' style='color:#6600cc'>" +
 	"<div id='dayNumber'>2</div>" +
