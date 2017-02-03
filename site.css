@@ -233,7 +233,14 @@ h2 {
 	text-align: left;
 /*	border-bottom: 2px solid black;*/
 }
-
+h3{
+	font-family: 'Arvo', serif;
+	color: black;
+	text-decoration: underline;
+	font-size: 14px;
+	text-align: left;
+	font-weight: bold;
+}
 table {
 	width:100%;
 }
