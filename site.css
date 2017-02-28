@@ -43,10 +43,10 @@ hr.style-one {
 	display: inline-block;
 }
 #aboutMe {
-	margin-left:75px;
+	margin-left:35px;
 	float: left;
-	height: 350px;
-	width: 30%;
+	height: 100%;
+	width: 50%;
 	font-size: 20px;
 	font-family: 'Raleway', serif;
 	display: inline-block;
