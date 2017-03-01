@@ -132,6 +132,7 @@ var januaryHTML =
 "</div>" ;
 
 var februaryHTML =
+    	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>FEBRUARY</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -273,6 +274,7 @@ var februaryHTML =
 	"</div>" ;
 
 var marchHTML =
+   	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>MARCH</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -415,6 +417,7 @@ var marchHTML =
 	"</div>" ;
 
 var aprilHTML =
+   	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>APRIL</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -582,6 +585,7 @@ var aprilHTML =
 	"</div>" ;
 
 var mayHTML =
+    	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>MAY</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -724,6 +728,7 @@ var mayHTML =
 	"</div>" ;
 
 var juneHTML =
+    	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>JUNE</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -863,6 +868,7 @@ var juneHTML =
 	"</div>" ;
 
 var julyHTML =
+    	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>JULY</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -1016,6 +1022,7 @@ var julyHTML =
 	"</div>" ;
 
 var augustHTML =
+    	"<div id='yearLabel'> 2017 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>AUGUST</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -1144,6 +1151,7 @@ var augustHTML =
 	"</div>" ;
 
 var septemberHTML =
+    	"<div id='yearLabel'> 2016 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>SEPTEMBER</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -1272,6 +1280,7 @@ var septemberHTML =
 	"</div>" ;
 
 var octoberHTML =
+    	"<div id='yearLabel'> 2016 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>OCTOBER</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -1400,6 +1409,7 @@ var octoberHTML =
 	"</div>" ;
 
 var novemberHTML =
+    	"<div id='yearLabel'> 2016 </div>" +
 	"<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>NOVEMBER</div><button id='calendarButtonRight'> > </button></div>" +
 	"<div id='week'>" +
 	"<div id='weekday'>SUN</div>" +
@@ -1528,6 +1538,7 @@ var novemberHTML =
 	"</div>" ;
 
 var decemberHTML =
+"<div id='yearLabel'> 2016 </div>" +
 "<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>DECEMBER</div><button id='calendarButtonRight'> > </button></div>" +
 "<div id='week'>" +
 "<div id='weekday'>SUN</div>" +
