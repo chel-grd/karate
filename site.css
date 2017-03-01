@@ -82,6 +82,11 @@ hr.style-one {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	vertical-align: middle;
+	font-family: 'Raleway', serif;
+	font-size: 2em;
+	color: white;
+	text-shadow: 2px 2px black;
 	background: #002db3;
 	background-image: linear-gradient(to right, white, #b3d9ff, #002db3, #b3d9ff, white);
 }
