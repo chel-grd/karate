@@ -77,6 +77,14 @@ hr.style-one {
 	background: #002db3;
 	background-image: linear-gradient(to right, white, #b3d9ff, #002db3, #b3d9ff, white);
 }
+#yearLabel {
+	width 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #002db3;
+	background-image: linear-gradient(to right, white, #b3d9ff, #002db3, #b3d9ff, white);
+}
 #month {
 	padding: 5px;
 	padding-left: 15px;
