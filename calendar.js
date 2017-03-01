@@ -1,6 +1,6 @@
 
 var januaryHTML =
-"<div id='yearLabel'> 2016 </div>" +
+"<div id='yearLabel'> 2017 </div>" +
 "<div id='calendarHeader'><button id='calendarButtonLeft'> < </button><div id='month'>JANUARY</div><button id='calendarButtonRight'> > </button></div>" +
 "<div id='week'>" +
 "<div id='weekday'>SUN</div>" +
