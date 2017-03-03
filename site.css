@@ -288,7 +288,9 @@ td {
 p {
 	padding-left: 50px;
 	margin:0;
-	font-family: 'Arvo', serif;
+	font-size: 14px;
+	font-family:Raleway;
+	color: black;
 }
 a {
 	text-decoration: none;
