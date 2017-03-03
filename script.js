@@ -1,5 +1,5 @@
 document.getElementById("foot01").innerHTML =
-"<p>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
+"<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
 
 document.getElementById("nav02").innerHTML = 
 "<div id='cssmenu'>" +
