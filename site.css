@@ -35,9 +35,9 @@ hr.style-one {
 	margin-left:60px;
 }
 #instructorPicture {
-	width: 350px;
+	width: 246px;
 	float: left;
-	height: 350px;
+	height: 300px;
 	border: 2px solid black;
 	box-shadow: 10px 10px 5px #888888;
 	display: inline-block;
