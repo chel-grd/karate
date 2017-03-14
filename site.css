@@ -213,8 +213,7 @@ hr.style-one {
 }
 #largeLogo {
 	width:30%;
-	margin:0 auto;
-	text-align:center;
+	padding-left: 10px;
 	display: inline-block;
 }
 #welcomeStatement {
