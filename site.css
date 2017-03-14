@@ -212,13 +212,15 @@ hr.style-one {
 	clear:both;
 }
 #largeLogo {
-	width:30%;
-	padding-left: 10px;
+	width:45%;
+	float:left;
+	margin-left: 35px;
 	display: inline-block;
 }
 #welcomeStatement {
 	width: 50%;
 	display: inline-block;
+	float:left;
 }
 #addressInfo {
 	color:black;
