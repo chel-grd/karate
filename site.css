@@ -216,11 +216,13 @@ hr.style-one {
 	float:left;
 	margin-left: 25px;
 	display: inline-block;
+	vertical-align:middle;
 }
 #welcomeStatement {
 	width: 50%;
 	display: inline-block;
 	float:left;
+	vertical-align:middle;
 }
 #addressInfo {
 	color:black;
