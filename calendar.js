@@ -1707,7 +1707,6 @@ case 1:
 	break;
 case 2:
 	document.getElementById("calendar2").innerHTML = marchHTML;
-	$("[id=colorBoxWrapper]").hide();
 	break;
 case 3:
 	document.getElementById("calendar2").innerHTML = aprilHTML;
