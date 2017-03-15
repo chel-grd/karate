@@ -1,3 +1,4 @@
+$( document ).ready(function() {	
 document.getElementById("foot01").innerHTML =
 "<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
 
@@ -50,3 +51,4 @@ switch(pageTitle) {
 		break;	
 }
 
+}
