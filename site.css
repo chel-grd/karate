@@ -199,6 +199,9 @@ hr.style-one {
 #webTitleLink a:hover {
 	text-decoration: none;
 }
+#logoHeader {
+	height: 110px;
+}
 #foot01 {
 	font-family: 'Raleway';
 	margin-top: 20px;
