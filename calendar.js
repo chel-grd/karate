@@ -1689,7 +1689,9 @@ var decemberHTML =
 "</div>" +
 "</div>" ;
 
-
+var summerHTML = 
+    "<p>Check back in September for the new karate term calendar!</p>";
+    
 $( document ).ready(function() {	
 	
 	var d = new Date();
@@ -1715,12 +1717,17 @@ case 4:
 case 5:
 	document.getElementById("calendar2").innerHTML = juneHTML;
 	break;
+case 6:
+case 7:
+	document.getElementById("calendar2").innerHTML =summerHTML;
+/*
 case 6: 
 	document.getElementById("calendar2").innerHTML = julyHTML;
 	break;
 case 7: 
 	document.getElementById("calendar2").innerHTML = augustHTML;
 	break;
+*/
 case 8:
 	document.getElementById("calendar2").innerHTML = septemberHTML;
 	break;
@@ -1758,9 +1765,33 @@ function goToPastMonth() {
 	console.log('event fired');
 	var currentMonthName = document.getElementById("month").innerHTML;
     switch (currentMonthName) {
+    case 'SEPTEMBER':
+    	document.getElementById("calendar2").innerHTML = septemberHTML;
+    	if (month === 8) {
+    		highlightToday();
+    	}
+    	break;
+    case 'OCTOBER':
+    	document.getElementById("calendar2").innerHTML = septemberHTML;
+    	if (month === 8) {
+    		highlightToday();
+    	}
+    	break;
+    case 'NOVEMBER':
+    	document.getElementById("calendar2").innerHTML = octoberHTML;
+    	if (month === 9) {
+    		highlightToday();
+    	}
+    	break;
+    case 'DECEMBER':
+    	document.getElementById("calendar2").innerHTML = novemberHTML;
+    	if (month === 10) {
+    		highlightToday();
+    	}
+    	break;		    
     case 'JANUARY':
-	document.getElementById("calendar2").innerHTML = januaryHTML;
-    	if (month === 0) {
+	document.getElementById("calendar2").innerHTML = decemberHTML;
+    	if (month === 11) {
     		highlightToday();
     	}
     	break;
@@ -1794,7 +1825,7 @@ function goToPastMonth() {
     		highlightToday();
     	}
     	break;
-    case 'JULY':
+    /*case 'JULY':
     	document.getElementById("calendar2").innerHTML = juneHTML;
     	if (month === 5) {
     		highlightToday();
@@ -1805,31 +1836,7 @@ function goToPastMonth() {
     	if (month === 6) {
     		highlightToday();
     	}
-    	break;
-    case 'SEPTEMBER':
-    	document.getElementById("calendar2").innerHTML = augustHTML;
-    	if (month === 7) {
-    		highlightToday();
-    	}
-    	break;
-    case 'OCTOBER':
-    	document.getElementById("calendar2").innerHTML = septemberHTML;
-    	if (month === 8) {
-    		highlightToday();
-    	}
-    	break;
-    case 'NOVEMBER':
-    	document.getElementById("calendar2").innerHTML = octoberHTML;
-    	if (month === 9) {
-    		highlightToday();
-    	}
-    	break;
-    case 'DECEMBER':
-    	document.getElementById("calendar2").innerHTML = novemberHTML;
-    	if (month === 10) {
-    		highlightToday();
-    	}
-    	break;
+    	break;*/
     default:
     	break;
     		
@@ -1847,6 +1854,30 @@ function goToNextMonth() {
 	
 	var currentMonthName = document.getElementById("month").innerHTML;
     switch (currentMonthName) {
+    case 'SEPTEMBER':
+    	document.getElementById("calendar2").innerHTML = octoberHTML;
+    	if (month === 9){
+    		highlightToday();
+    	}
+    	break;
+    case 'OCTOBER':
+    	document.getElementById("calendar2").innerHTML = novemberHTML;
+    	if (month === 10){
+    		highlightToday();
+    	}
+    	break;
+    case 'NOVEMBER':
+    	document.getElementById("calendar2").innerHTML = decemberHTML;
+    	if (month === 11){
+    		highlightToday();
+    	}
+    	break;
+    case 'DECEMBER':
+	document.getElementById("calendar2").innerHTML = januaryHTML;
+	if (month === 0) {
+		highlightToday();
+	}
+    	break;		    
     case 'JANUARY':
     	document.getElementById("calendar2").innerHTML = februaryHTML;
     	if (month === 1){
@@ -1878,12 +1909,12 @@ function goToNextMonth() {
     	}
     	break;
     case 'JUNE':
-    	document.getElementById("calendar2").innerHTML = julyHTML;
-    	if (month === 6){
+    	document.getElementById("calendar2").innerHTML = juneHTML;
+    	if (month === 5){
     		highlightToday();
     	}
     	break;
-    case 'JULY':
+    /*case 'JULY':
     	document.getElementById("calendar2").innerHTML = augustHTML;
     	if (month === 7){
     		highlightToday();
@@ -1894,31 +1925,7 @@ function goToNextMonth() {
     	if (month === 8){
     		highlightToday();
     	}
-    	break;
-    case 'SEPTEMBER':
-    	document.getElementById("calendar2").innerHTML = octoberHTML;
-    	if (month === 9){
-    		highlightToday();
-    	}
-    	break;
-    case 'OCTOBER':
-    	document.getElementById("calendar2").innerHTML = novemberHTML;
-    	if (month === 10){
-    		highlightToday();
-    	}
-    	break;
-    case 'NOVEMBER':
-    	document.getElementById("calendar2").innerHTML = decemberHTML;
-    	if (month === 11){
-    		highlightToday();
-    	}
-    	break;
-    case 'DECEMBER':
-	document.getElementById("calendar2").innerHTML = decemberHTML;
-	if (month === 11) {
-		highlightToday();
-	}
-    	break;
+    	break;*/
     default:
     	break;
     		
