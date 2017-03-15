@@ -51,4 +51,4 @@ switch(pageTitle) {
 		break;	
 }
 
-}
+});
