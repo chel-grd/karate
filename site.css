@@ -245,6 +245,11 @@ hr.style-one {
 	text-align: center;
 	padding: 0px 0px 0px 0px;
 }
+#feesP {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 h1 {
 	font-family: 'Arvo', serif;
 	border-bottom: 3px solid black;
