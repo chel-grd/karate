@@ -1,9 +1,7 @@
 body {
 	font-family: 'Arvo' serif; 
 	font-size: 16px;
-	/*background-color: #292525;*/
 	background-image: url("images/fuji.jpg");
-	/*color: #696969;*/
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -11,7 +9,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: black;
-
 	padding: 3px;
 }
 
@@ -283,9 +280,6 @@ table, th, td {
 th {
 	text-align: left;
 	color: black;
-	/*background-color: #f1f1f1;*/
-	/*background-color: #787878;*/
-	/*background-color: #a1bddd;*/
 	background-color: #b3d9ff;
 	border: 2px solid black;
 }
@@ -465,7 +459,6 @@ a:hover {
 }
 #cssmenu .has-sub ul li a {
 	background: #002080;
-	/*border-bottom: 2px dotted #0000ff;*/
 	border-bottom: 2px solid #000000;
 	font-size: 15px;
 	filter: none;
@@ -496,7 +489,6 @@ a:hover {
 }
 #cssmenu .has-sub .has-sub ul li a {
 	background: #2e2ee3;
-	/*border-bottom: 2px dotted #0000ff;*/
 	border-bottom: 2px solid #000000;
 }
 #cssmenu .has-sub .has-sub ul li a:hover {
