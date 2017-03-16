@@ -215,7 +215,6 @@ hr.style-one {
 	clear:both;
 }
 #largeLogo {
-	width:50%;
 	float:left;
 	margin-left: 25px;
 	display: inline-block;
@@ -223,7 +222,6 @@ hr.style-one {
 }
 #welcomeStatement {
 	padding-top: 50px;
-	width: 50%;
 	display: inline-block;
 	float:left;
 	vertical-align:middle;
