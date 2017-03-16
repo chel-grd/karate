@@ -222,6 +222,7 @@ hr.style-one {
 }
 #welcomeStatement {
 	width: 450px;
+	height: 325px;
 	padding-top: 25px;
 	display: inline-block;
 	float:left;
