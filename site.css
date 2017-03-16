@@ -321,6 +321,9 @@ a {
 	font-size: 14px;
 	font-family:Raleway;
 }
+a.news {
+	padding-left: 50px;
+}
 a:hover {
 	text-decoration: underline;
 }
