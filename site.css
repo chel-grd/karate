@@ -8,8 +8,7 @@ body {
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background: linear-gradient(#d9ad80, blue); /* Standard syntax */
-	/*background-color: #d9ad80;*/
+	background-color: #d9ad80;
 	color: black;
 	padding: 3px;
 }
