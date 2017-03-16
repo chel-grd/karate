@@ -22,7 +22,9 @@ hr.style-one {
 	height: 1px;
 	background: black;
 }
-
+.fb-like {
+	margin-top: 50px;
+}
 #instructorName {
 	width: 200px;
 	text-align:left;
