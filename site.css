@@ -221,6 +221,7 @@ hr.style-one {
 	vertical-align:middle;
 }
 #welcomeStatement {
+	width: 450px;
 	padding-top: 50px;
 	display: inline-block;
 	float:left;
