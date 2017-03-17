@@ -8,7 +8,6 @@
 	justify-content:space-around;
 	align-items:center;
 	width: 960px;
-	height: 110px;
 }
 .webTitleLink {
 
@@ -17,7 +16,7 @@
 	text-decoration: none;
 }
 .shotokanLogo{
-	flex-shrink: 5;
+	height: 110px;
 }
 /*************************************/
 body {
