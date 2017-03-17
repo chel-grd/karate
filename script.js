@@ -1,7 +1,6 @@
 function updateScreen(time) {	
 document.getElementById("foot01").innerHTML =
 "<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
-
 document.getElementById("nav02").innerHTML = 
 "<div id='cssmenu'>" +
 "<ul>" +
@@ -23,7 +22,6 @@ document.getElementById("nav02").innerHTML =
 "<li id='contactTab' class='last'><a href='contact.html'><span>Contact</span></a></li>" +
 "</ul>" +
 "</div>";
-
 var pageTitle = document.getElementById("title").innerHTML;
 switch(pageTitle) {
 	case "Links":
@@ -40,15 +38,11 @@ switch(pageTitle) {
 	case "Saskatoon Shotokan Karate":
 		$("#indexTab").addClass("active");
 		break;
-/*	case "Downloads":
-		$("#downloadsTab").addClass("active");
-		break;*/
 	case "Contact":
 		$("#contactTab").addClass("active");
 		break;
 	default:
 		break;	
 }
-
 };
 requestAnimationFrame(updateScreen);
