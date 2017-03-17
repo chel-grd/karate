@@ -4,22 +4,22 @@ document.getElementById("foot01").innerHTML =
 document.getElementById("nav02").innerHTML = 
 "<div id='cssmenu'>" +
 "<ul>" +
-"<li id='indexTab'><a href='index.html'><span>Home</span></a></li>" +
-"<li id='aboutTab' class='has-sub'><a href='about.html'><span>About</span></a>" +
+"<li id='indexTab'><button id='homeButton'>Home</button></li>" +
+"<li id='aboutTab' class='has-sub'><button id='aboutButton'>About</button>" +
 "<ul>" +
-"<li class='has-sub'><a href='instructors.html'><span>Instructors</span></a>" +
+"<li class='has-sub'><button id='instructorsButton'>Instructors</button>" +
 "</li>" + 
-"<li class='has-sub'><a href='#'<span>Classes</span></a>" +
+"<li class='has-sub'><button id='classesButton'>Classes</button>" +
 "<ul>" +
-"<li><a href='fees.html'><span>Fees</span></a></li>" +
-"<li class='last'><a href='calendar2.html'><span>Calendar</span></a></li>" +
+"<li><button id='feesButton'>Fees</button></li>" +
+"<li class='last'><button id='calendarButton'>Calendar</button></li>" +
 "</ul>" +
 "</li>" +
 "</ul>" +
 "</li>" +
-"<li id='newsTab'><a href='news.html'><span>Club News</span></a></li>" +
-"<li id='linksTab'><a href='links.html'><span>Links</span></a></li>" +
-"<li id='contactTab' class='last'><a href='contact.html'><span>Contact</span></a></li>" +
+"<li id='newsTab'><button id='newsButton'>News</button></li>" +
+"<li id='linksTab'><button id='linksButton'>Links</button></li>" +
+"<li id='contactTab' class='last'><button id='contactButton'>Contact</button></li>" +
 "</ul>" +
 "</div>";
 var pageTitle = document.getElementById("title").innerHTML;
