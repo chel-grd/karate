@@ -1,4 +1,4 @@
-function updateScreen() {	
+function updateScreen(time) {	
 document.getElementById("foot01").innerHTML =
 "<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
 
