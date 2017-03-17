@@ -3,6 +3,20 @@
 	justify-content: space-around;
 	align-items: center;
 }
+.logoHeader {
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	width: 960px;
+}
+.webTitleLink {
+	flex-basis:80%;
+}
+.webTitleLink a:hover {
+	text-decoration: none;
+}
+.shotokanLogo{
+}
 /*************************************/
 body {
 	font-family: 'Arvo' serif; 
@@ -191,36 +205,10 @@ hr.style-one {
 #colorBox.popeJohnPaulII{
 	background: #009933;
 }
-#webTitleLink a:hover {
-	text-decoration: none;
-}
-#logoHeader {
-	height: 110px;
-}
 #foot01 {
 	font-family: 'Raleway';
 	margin-top: 20px;
 	color: #941313;
-}
-#shotokanLogo {
-	width:120px;
-	height:100px;
-	float:left;
-	clear:both;
-}
-#largeLogo {
-/*	float:left;
-	margin-left: 50px;
-	display: inline-block;
-	vertical-align:middle;*/
-}
-#welcomeStatement {
-/*	width: 450px;
-	height: 300px;
-	padding-top: 25px;
-	display: inline-block;
-	float:left;
-	vertical-align:middle;*/
 }
 #addressInfo {
 	color:black;
