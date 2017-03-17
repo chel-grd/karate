@@ -12,7 +12,7 @@
 .webTitleLink {
 
 }
-.webTitleLink a:hover {
+a.webTitleLink:hover {
 	text-decoration: none;
 }
 .shotokanLogo{
