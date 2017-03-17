@@ -8,15 +8,16 @@
 	justify-content:space-around;
 	align-items:center;
 	width: 960px;
+	height: 110px;
 }
 .webTitleLink {
-	flex: 2 1 70%;
+
 }
 .webTitleLink a:hover {
 	text-decoration: none;
 }
 .shotokanLogo{
-	flex: 1 5 auto;
+
 }
 /*************************************/
 body {
