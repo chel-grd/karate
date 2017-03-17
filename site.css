@@ -10,7 +10,7 @@
 	width: 960px;
 }
 .webTitleLink {
-
+	flex-basis:70%;
 }
 .webTitleLink a:hover {
 	text-decoration: none;
