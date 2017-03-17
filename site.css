@@ -16,8 +16,7 @@
 	text-decoration: none;
 }
 .shotokanLogo{
-	flex-basis:20%;
-	flex-shrink: 0.25;
+	flex-shrink: 5;
 }
 /*************************************/
 body {
