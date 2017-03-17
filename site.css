@@ -72,7 +72,7 @@ hr.style-one {
 	background-image: linear-gradient(to right, white, #b3d9ff, #002db3, #b3d9ff, white);
 }
 #yearLabel {
-	width 100%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -118,7 +118,6 @@ hr.style-one {
 	padding-right: 15px;
 	text-align: center;
 	font-family: 'Raleway', serif;
-	font-weight: regular;
 	border-radius: 5px 5px 5px 5px;
 	width: auto;
 }
@@ -226,7 +225,7 @@ hr.style-one {
 #contact_header {
 	text-align: center;
 }
-#map, #calendar {
+#map {
 	margin-top: 30px; 
 	margin-bottom: 30px;
 	text-align: center;
@@ -283,12 +282,12 @@ td {
 p {
 	padding-left: 50px;
 	margin:0;
-	font-size: 14px;
+	font-size: 15px;
 	font-family:Raleway;
 	color: black;
 }
 pre {
-	font-size:14px;
+	font-size:15px;
 	font-family:Raleway;
 	font-style:italic;
 	font-weight:bold;
