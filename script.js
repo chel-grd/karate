@@ -37,6 +37,7 @@ switch(pageTitle) {
 		break;
 	case "Saskatoon Shotokan Karate":
 		$("#indexTab").addClass("active");
+		$("#about").addClass("hidden");
 		break;
 	case "Contact":
 		$("#contactTab").addClass("active");
