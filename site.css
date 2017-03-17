@@ -25,6 +25,9 @@
 	background-color: #ffffff;
 	border-radius: 0 0 5px 5px;
 }
+.hidden {
+	display: none;
+}
 /*************************************/
 body {
 	font-family: 'Arvo' serif; 
