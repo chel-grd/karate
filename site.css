@@ -10,13 +10,13 @@
 	width: 960px;
 }
 .webTitleLink {
-	flex-basis:70%;
+	flex: 2 2 10em;
 }
 .webTitleLink a:hover {
 	text-decoration: none;
 }
 .shotokanLogo{
-	flex-shrink: 5;
+	flex: 1 1 10em;
 }
 /*************************************/
 body {
