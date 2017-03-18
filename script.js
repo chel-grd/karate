@@ -1,6 +1,5 @@
 function updateScreen() {	
-document.getElementsByClassName("foot01").innerHTML =
-"<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
+$(".foot01").html("<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>");
 document.getElementById("nav02").innerHTML = 
 "<div id='cssmenu'>" +
 "<ul>" +
