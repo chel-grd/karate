@@ -67,6 +67,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	});
 
 function goToPage(pageName) {
+	console.log("Changing Page");
 	switch(pageName) {
 		case 'home':
 			if ( $("#index").hasClass("hidden") ) {
