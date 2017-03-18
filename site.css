@@ -28,6 +28,11 @@ a.webTitleLink:hover {
 .hidden {
 	display: none;
 }
+.nav {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
 /*************************************/
 body {
 	font-family: 'Arvo' serif; 
