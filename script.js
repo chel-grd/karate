@@ -63,37 +63,60 @@ window.addEventListener('DOMContentLoaded', function() {
 	var linksButton = document.getElementById("linksButton");
 	linksButton.addEventListener("click", function() {goToPage('links')});
 	var contactButton = document.getElementById("contactButton");
-	contactButton.addEventListener("click", function() {goToPage('calendar')});
+	contactButton.addEventListener("click", function() {goToPage('contact')});
 	});
 
 function goToPage(pageName) {
-	$(".main").addClass("hidden");
 	switch(pageName) {
 		case 'home':
-			$("#home").removeClass("hidden");
+			if ( $("#home").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#home").removeClass("hidden");
+				}
 			break;
 		case 'about':
-			$("#about").removeClass("hidden");
+			if ( $("#about").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#about").removeClass("hidden");
+				}
 			break;
 		case 'instructors':
-			$("#instructors").removeClass("hidden");
+			if( $("#instructors").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#instructors").removeClass("hidden");
+				}
 			break;
 		case 'classes':
 			break;
 		case 'fees':
-			$("#fees").removeClass("hidden");
+			if( $("#fees").hassClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#fees").removeClass("hidden");
+				}
 			break;
 		case 'calendar':
-			$("#calendar").removeClass("hidden");
+			if( $("#calendar").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#calendar").removeClass("hidden");
+				}
 			break;
 		case 'news':
-			$("#news").removeClass("hidden");
+			if( $("#news").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#news").removeClass("hidden");
+				}
 			break;
 		case 'links':
-			$("#links").removeClass("hidden");
+			if( $("#links").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#links").removeClass("hidden");
+				}
 			break;
 		case 'contact':
-			$("#contact").removeClass("hidden");
+			if( $("#contact").hasClass("hidden") ) {
+				$(".main").addClass("hidden");
+				$("#contact").removeClass("hidden");
+				}
 			break;
 		default:
 			break;
