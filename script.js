@@ -67,8 +67,6 @@ window.addEventListener('DOMContentLoaded', function() {
 	});
 
 function goToPage(pageName) {
-	document.getElementById("foot01").innerHTML =
-	"<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
 	console.log("Changing Page");
 	switch(pageName) {
 		case 'home':
