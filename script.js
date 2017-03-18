@@ -16,15 +16,11 @@ document.getElementById("nav02").innerHTML =
 "<li id='contactTab'><button id='contactButton'>Contact</button></li>" +
 "</ul>" +
 "</div>";
-$("#subMenu").mouseenter(function() {
-	$("#subMenu1").slideDown();
-	$("#subMenu2").slideDown();
-	$("#subMenu3").slideDown();
+$("#aboutTab").mouseenter(function() {
+	$("#subMenu").slideDown();
 });
-$("#subMenu").mouseleave(function() {
-	$("#subMenu1").slideUp();
-	$("#subMenu2").slideUp();
-	$("#subMenu3").slideUp();
+$("#aboutTab").mouseleave(function() {
+	$("#subMenu").slideUp();
 });
 var pageTitle = document.getElementById("title").innerHTML;
 switch(pageTitle) {
