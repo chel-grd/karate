@@ -6,9 +6,9 @@ document.getElementById("nav02").innerHTML =
 "<li id='indexTab'><button id='homeButton'>Home</button></li>" +
 "<li id='aboutTab'><button id='aboutButton'>About</button>" +
 "<ul id='subMenu' class='hidden'>" +
-"<li id='subMenu1'><button id='instructorsButton'>Instructors</button></li>" +
-"<li id='subMenu2'><button id='feesButton'>Fees</button></li>" +
-"<li id='subMenu3'><button id='calendarButton'>Calendar</button></li>" +
+"<li><button id='instructorsButton'>Instructors</button></li>" +
+"<li><button id='feesButton'>Fees</button></li>" +
+"<li><button id='calendarButton'>Calendar</button></li>" +
 "</ul>" +
 "</li>" +
 "<li id='newsTab'><button id='newsButton'>News</button></li>" +
