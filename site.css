@@ -312,7 +312,7 @@ a:hover {
 }
 #cssmenu ul,
 #cssmenu li,
-#cssmenu span,
+#cssmenu button,
 #cssmenu a {
 	margin: 0;
 	padding: 0;
@@ -339,7 +339,7 @@ a:hover {
 	display: block;
 	clear: both;
 }
-#cssmenu a {
+#cssmenu button {
 	background: #ffffff;
 	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
@@ -377,7 +377,7 @@ a:hover {
 #cssmenu.align-right ul ul {
 	text-align: right;
 }
-#cssmenu > ul > li > a {
+#cssmenu > ul > li > button {
 	color: #000000;
 	font-size: 17px;
 }
@@ -399,19 +399,19 @@ a:hover {
 	-moz-border-radius: 5px 0 0 0;
 	-webkit-border-radius: 5x 0 0 0;
 }
-#cssmenu.align-right > ul > li:first-child > a,
-#cssmenu.align-center > ul > li:first-child > a {
+#cssmenu.align-right > ul > li:first-child > button,
+#cssmenu.align-center > ul > li:first-child > button {
 	border-radius: 0;
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 }
-#cssmenu.align-right > ul > li:last-child > a {
+#cssmenu.align-right > ul > li:last-child > button {
 	border-radius: 0 5px 0 0;
 	-moz-border-radius: 0 5px 0 0;
 	-webkit-border-radius: 0 5px 0 0;
 }
-#cssmenu > ul > li.active > a,
-#cssmenu > ul > li:hover > a {
+#cssmenu > ul > li.active > button,
+#cssmenu > ul > li:hover > button {
 	color: #000000;
 	box-shadow: inset 0 0 3px #d9d9d9;
 	-moz-box-shadow: inset 0 0 3px #d9d9d9;
@@ -444,7 +444,7 @@ a:hover {
 #cssmenu .has-sub ul li {
 	*margin-bottom: -1px;
 }
-#cssmenu .has-sub ul li a {
+#cssmenu .has-sub ul li button {
 	background: #002080;
 	border-bottom: 2px solid #000000;
 	font-size: 15px;
@@ -454,10 +454,10 @@ a:hover {
 	padding: 10px; 
 	color: #ffffff;
 }
-#cssmenu .has-sub ul li:hover a {
+#cssmenu .has-sub ul li:hover button {
 	background: #2e2ee3;
 }
-#cssmenu ul ul li:hover > a {
+#cssmenu ul ul li:hover > button {
        color: #ffffff;
 }
 #cssmenu .has-sub .has-sub:hover > ul {
@@ -474,21 +474,21 @@ a:hover {
 	left: auto;
 	right: 100%;
 }
-#cssmenu .has-sub .has-sub ul li a {
+#cssmenu .has-sub .has-sub ul li button {
 	background: #2e2ee3;
 	border-bottom: 2px solid #000000;
 }
-#cssmenu .has-sub .has-sub ul li a:hover {
+#cssmenu .has-sub .has-sub ul li button:hover {
 	background: #a1bddd;
 	color: #2e2ee3;
 	border-bottom: 2px solid #000000;
 }
-#cssmenu ul ul li.last > a,
-#cssmenu ul ul li:last-child > a,
-#cssmenu ul ul ul li.last > a, 
-#cssmenu ul ul ul li:last-child >a,
-#cssmenu .has-sub ul li:last-child > a,
-#cssmenu .has-sub ul li.last > a {
+#cssmenu ul ul li.last > button,
+#cssmenu ul ul li:last-child > button,
+#cssmenu ul ul ul li.last > button, 
+#cssmenu ul ul ul li:last-child >button,
+#cssmenu .has-sub ul li:last-child > button,
+#cssmenu .has-sub ul li.last > button {
 	border-bottom: 0;
 }	  
 .highlight {
