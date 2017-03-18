@@ -1,5 +1,5 @@
 function updateScreen() {	
-document.getElementById("foot01").innerHTML =
+document.getElementsByClassName("foot01").innerHTML =
 "<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>";
 document.getElementById("nav02").innerHTML = 
 "<div id='cssmenu'>" +
