@@ -46,8 +46,6 @@ window.addEventListener('DOMContentLoaded', function() {
 	aboutButton.addEventListener("click", function() {goToPage('about')});
 	var instructorsButton = document.getElementById("instructorsButton");
 	instructorsButton.addEventListener("click", function() {goToPage('instructors')});
-	var classesButton = document.getElementById("classesButton");
-	classesButton.addEventListener("click", function() {goToPage('classes')});
 	var feesButton = document.getElementById("feesButton");
 	feesButton.addEventListener("click", function() {goToPage('fees')});
 	var calendarButton = document.getElementById("calendarButton");
@@ -80,8 +78,6 @@ function goToPage(pageName) {
 				$(".main").addClass("hidden");
 				$("#instructors").removeClass("hidden");
 				}
-			break;
-		case 'classes':
 			break;
 		case 'fees':
 			if( $("#fees").hasClass("hidden") ) {
