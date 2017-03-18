@@ -48,6 +48,20 @@ a.webTitleLink:hover {
 	border-bottom: 2px solid #002080;
 	width: auto;
 }
+#navMenu button {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+	color: #ffffff;
+	display: block;
+	font-family: 'Arvo', serif;
+	letter-spacing: 2px;
+	padding: 19px 20px;
+	text-decoration: none;
 /*************************************/
 body {
 	font-family: 'Arvo' serif; 
