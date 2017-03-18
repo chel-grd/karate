@@ -5,7 +5,7 @@ document.getElementById("nav02").innerHTML =
 "<ul class='nav'>" +
 "<li id='indexTab'><button id='homeButton'>Home</button></li>" +
 "<li id='aboutTab'><button id='aboutButton'>About</button>" +
-"<ul>" +
+"<ul class='hidden'>" +
 "<li><button id='instructorsButton'>Instructors</button></li>" +
 "<li><button id='feesButton'>Fees</button></li>" +
 "<li><button id='calendarButton'>Calendar</button></li>" +
