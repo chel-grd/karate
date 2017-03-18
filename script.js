@@ -69,9 +69,9 @@ window.addEventListener('DOMContentLoaded', function() {
 function goToPage(pageName) {
 	switch(pageName) {
 		case 'home':
-			if ( $("#home").hasClass("hidden") ) {
+			if ( $("#index").hasClass("hidden") ) {
 				$(".main").addClass("hidden");
-				$("#home").removeClass("hidden");
+				$("#index").removeClass("hidden");
 				}
 			break;
 		case 'about':
