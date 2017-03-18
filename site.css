@@ -56,8 +56,9 @@ a.webTitleLink:hover {
 	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-	color: #ffffff;
+	color: #000000;
 	font-family: 'Arvo', serif;
+	font-size:17px;
 	letter-spacing: 2px;
 	padding: 19px 20px;
 	text-decoration: none;
