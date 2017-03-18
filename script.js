@@ -45,5 +45,59 @@ switch(pageTitle) {
 	default:
 		break;	
 }
+window.addEventListener('DOMContentLoaded', function() {
+	var homeButton = document.getElementById("homeButton");
+	homeButton.addEventListener("click", function() {goToPage('home')});
+	var aboutButton = document.getElementById("aboutButton");
+	aboutButton.addEventListener("click", function() {goToPage('about')});
+	var instructorsButton = document.getElementById("instructorsButton");
+	instructorsButton.addEventListener("click", function() {goToPage('instructors')});
+	var classesButton = document.getElementById("classesButton");
+	classesButton.addEventListener("click", function() {goToPage('classes')});
+	var feesButton = document.getElementById("feesButton");
+	feesButton.addEventListener("click", function() {goToPage('fees')});
+	var calendarButton = document.getElementById("calendarButton");
+	calendarButton.addEventListener("click", function() {goToPage('calendar')});
+	var newsButton = document.getElementById("newsButton");
+	newsButton.addEventListener("click", function() {goToPage('news')});
+	var linksButton = document.getElementById("linksButton");
+	linksButton.addEventListener("click", function() {goToPage('links')});
+	var contactButton = document.getElementById("contactButton");
+	contactButton.addEventListener("click", function() {goToPage('calendar')});
+	});
+
+function goToPage(pageName) {
+	$(".main").addClass("hidden");
+	switch(pageName) {
+		case 'home':
+			$("#home").removeClass("hidden");
+			break;
+		case 'about':
+			$("#about").removeClass("hidden");
+			break;
+		case 'instructors':
+			$("#instructors").removeClass("hidden");
+			break;
+		case 'classes':
+			break;
+		case 'fees':
+			$("#fees").removeClass("hidden");
+			break;
+		case 'calendar':
+			$("#calendar").removeClass("hidden");
+			break;
+		case 'news':
+			$("#news").removeClass("hidden");
+			break;
+		case 'links':
+			$("#links").removeClass("hidden");
+			break;
+		case 'contact':
+			$("#contact").removeClass("hidden");
+			break;
+		default:
+			break;
+		}
+	}
 };
 requestAnimationFrame(updateScreen);
