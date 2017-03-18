@@ -5,10 +5,10 @@ document.getElementById("nav02").innerHTML =
 "<ul class='nav'>" +
 "<li id='indexTab'><button id='homeButton'>Home</button></li>" +
 "<li id='aboutTab'><button id='aboutButton'>About</button>" +
-"<ul class='hidden'>" +
-"<li><button id='instructorsButton'>Instructors</button></li>" +
-"<li><button id='feesButton'>Fees</button></li>" +
-"<li><button id='calendarButton'>Calendar</button></li>" +
+"<ul id='subMenu' class='hidden'>" +
+"<li id='subMenu1'><button id='instructorsButton'>Instructors</button></li>" +
+"<li id='subMenu2'><button id='feesButton'>Fees</button></li>" +
+"<li id='subMenu3'><button id='calendarButton'>Calendar</button></li>" +
 "</ul>" +
 "</li>" +
 "<li id='newsTab'><button id='newsButton'>News</button></li>" +
@@ -16,6 +16,16 @@ document.getElementById("nav02").innerHTML =
 "<li id='contactTab'><button id='contactButton'>Contact</button></li>" +
 "</ul>" +
 "</div>";
+$("#subMenu").mouseenter(function() {
+	$("#subMenu1").slideDown();
+	$("#subMenu2").slideDown();
+	$("#subMenu3").slideDown();
+});
+$("#subMenu").mouseleave(function() {
+	$("#subMenu1").slideUp();
+	$("#subMenu2").slideUp();
+	$("#subMenu3").slideUp();
+});
 var pageTitle = document.getElementById("title").innerHTML;
 switch(pageTitle) {
 	case "Links":
