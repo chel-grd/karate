@@ -89,7 +89,7 @@ function goToPage(pageName) {
 		case 'classes':
 			break;
 		case 'fees':
-			if( $("#fees").hassClass("hidden") ) {
+			if( $("#fees").hasClass("hidden") ) {
 				$(".main").addClass("hidden");
 				$("#fees").removeClass("hidden");
 				}
