@@ -1,7 +1,7 @@
 function updateScreen() {	
 $(".foot01").html("<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>");
 document.getElementById("nav02").innerHTML = 
-"<div>" +
+"<div id='navMenu'>" +
 "<ul class='nav'>" +
 "<li id='indexTab'><button id='homeButton'>Home</button></li>" +
 "<li id='aboutTab'><button id='aboutButton'>About</button>" +
