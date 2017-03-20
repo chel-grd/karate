@@ -3,17 +3,17 @@ $(".foot01").html("<p style='padding-left:0px;'>&copy; " + new Date().getFullYea
 document.getElementById("nav02").innerHTML = 
 "<div id='navMenu'>" +
 "<ul class='nav'>" +
-"<li id='indexTab'><button id='homeButton'>Home</button></li>" +
-"<li id='aboutTab'><button id='aboutButton'>About</button>" +
+"<li id='indexTab'><button id='homeButton' class='navButton active'>Home</button></li>" +
+"<li id='aboutTab'><button id='aboutButton' class='navButton'>About</button>" +
 "<ul id='subMenu' class='hidden'>" +
-"<li><button id='instructorsButton'>Instructors</button></li>" +
-"<li><button id='feesButton'>Fees</button></li>" +
-"<li><button id='calendarButton'>Calendar</button></li>" +
+"<li><button id='instructorsButton' class='navButton'>Instructors</button></li>" +
+"<li><button id='feesButton' class='navButton'>Fees</button></li>" +
+"<li><button id='calendarButton' class='navButton'>Calendar</button></li>" +
 "</ul>" +
 "</li>" +
-"<li id='newsTab'><button id='newsButton'>News</button></li>" +
-"<li id='linksTab'><button id='linksButton'>Links</button></li>" +
-"<li id='contactTab'><button id='contactButton'>Contact</button></li>" +
+"<li id='newsTab'><button id='newsButton' class='navButton'>News</button></li>" +
+"<li id='linksTab'><button id='linksButton' class='navButton'>Links</button></li>" +
+"<li id='contactTab'><button id='contactButton' class='navButton'>Contact</button></li>" +
 "</ul>" +
 "</div>";
 $("#aboutTab").mouseenter(function() {
@@ -22,29 +22,7 @@ $("#aboutTab").mouseenter(function() {
 $("#aboutTab").mouseleave(function() {
 	$("#subMenu").slideUp();
 });
-var pageTitle = document.getElementById("title").innerHTML;
-switch(pageTitle) {
-	case "Links":
-		$("#linksButton").addClass("active");
-		break;
-	case "About":
-	case "Instructors":
-	case "Calendar":
-	case "Fees":
-		$("#aboutButton").addClass("active");
-		break;
-	case "News":
-		$("#newsButton").addClass("active");
-		break;
-	case "Saskatoon Shotokan Karate":
-		$("#homeButton").addClass("active");
-		break;
-	case "Contact":
-		$("#contactButton").addClass("active");
-		break;
-	default:
-		break;	
-}
+
 window.addEventListener('DOMContentLoaded', function() {
 	var homeButton = document.getElementById("homeButton");
 	homeButton.addEventListener("click", function() {goToPage('home')});
@@ -63,9 +41,34 @@ window.addEventListener('DOMContentLoaded', function() {
 	var contactButton = document.getElementById("contactButton");
 	contactButton.addEventListener("click", function() {goToPage('contact')});
 	});
-
+function setActiveTab(pageName) {
+	$(".navButton").removeClass("active");
+	switch(pageName) {
+		case 'home':
+			$("#homeButton").addClass("active");
+			break;
+		case 'about':
+		case 'instructors':
+		case 'fees':
+		case 'calendar':
+			$("#aboutButton").addClass("active");
+			break;
+		case 'news':
+			$("#newsButton").addClass("active");
+			break;
+		case 'links':
+			$("#linksButton").addClass("active");
+			break;
+		case 'contact':
+			$("#contactButton").addClass("active");
+			break;
+		default:
+			break;
+		}
+	}
 function goToPage(pageName) {
 	console.log("Changing Page");
+	setActiveTab(pageName);
 	switch(pageName) {
 		case 'home':
 			if ( $("#index").hasClass("hidden") ) {
