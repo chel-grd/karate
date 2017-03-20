@@ -1,4 +1,4 @@
-function updateScreen() {	
+	
 $(".foot01").html("<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>");
 document.getElementById("nav02").innerHTML = 
 "<div id='navMenu'>" +
@@ -119,5 +119,3 @@ function goToPage(pageName) {
 			break;
 		}
 	}
-};
-requestAnimationFrame(updateScreen);
