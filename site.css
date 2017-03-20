@@ -66,6 +66,9 @@ a.webTitleLink:hover {
 #navMenu ul {
 	list-style: none;
 }
+#subMenu {
+	z-index: 1;
+}
 /*************************************/
 body {
 	font-family: 'Arvo' serif; 
