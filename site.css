@@ -24,7 +24,6 @@ a.webTitleLink:hover {
 	padding-right: 15px;
 	background-color: #ffffff;
 	border-radius: 0 0 5px 5px;
-	z-index: 0;
 }
 .hidden {
 	display: none;
@@ -48,7 +47,6 @@ a.webTitleLink:hover {
 	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
 	border-bottom: 2px solid #002080;
 	width: auto;
-	z-index: 0;
 }
 #navMenu button {
 	background: #ffffff;
@@ -69,10 +67,9 @@ a.webTitleLink:hover {
 	list-style: none;
 }
 #subMenu {
-	z-index: 1;
+	position: absolute;
 }
 #nav02 {
-	z-index: 0;
 }
 /*************************************/
 body {
