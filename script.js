@@ -25,22 +25,22 @@ $("#aboutTab").mouseleave(function() {
 var pageTitle = document.getElementById("title").innerHTML;
 switch(pageTitle) {
 	case "Links":
-		$("#linksTab").addClass("active");
+		$("#linksButton").addClass("active");
 		break;
 	case "About":
 	case "Instructors":
 	case "Calendar":
-		$("#aboutTab").addClass("active");
+	case "Fees":
+		$("#aboutButton").addClass("active");
 		break;
 	case "News":
-		$("#newsTab").addClass("active");
+		$("#newsButton").addClass("active");
 		break;
 	case "Saskatoon Shotokan Karate":
-		$("#indexTab").addClass("active");
-		$("#about").addClass("hidden");
+		$("#homeButton").addClass("active");
 		break;
 	case "Contact":
-		$("#contactTab").addClass("active");
+		$("#contactButton").addClass("active");
 		break;
 	default:
 		break;	
