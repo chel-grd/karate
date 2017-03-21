@@ -25,6 +25,12 @@
 	width: 960px;
 	height: 110px;
 }
+#welcomeStatement {
+	width: 555px;
+}
+#largeLogo {
+	width: 375px;
+}
 .webTitleLink {
 	height: 110px;
 }
