@@ -383,14 +383,14 @@ p.dojoKun {
 	font-weight: bold;
 	font-style: italic;
 }
-pre {
+/*pre {
 	font-size:15px;
 	font-family:Raleway;
 	font-style:italic;
 	font-weight:bold;
 	padding-left:50px;
 	padding-right: 50px;
-}
+}*/
 ul {
 	padding-left: 50px;
 	margin:0;
