@@ -379,6 +379,10 @@ p {
 	font-family:Raleway;
 	color: black;
 }
+p.dojoKun {
+	font-weight: bold;
+	font-style: italix;
+}
 pre {
 	font-size:15px;
 	font-family:Raleway;
