@@ -28,15 +28,10 @@
 	-ms-align-items: center;
 	align-items:center;
 	width: 960px;
-}
-.webTitleLink {
-
+	height: 110px;
 }
 a.webTitleLink:hover {
 	text-decoration: none;
-}
-.shotokanLogo{
-	
 }
 .main {
 	padding: 5px;
