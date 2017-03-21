@@ -1,3 +1,127 @@
+.indexContainer {
+	display: flex;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items: center;
+	width: 930px;
+}
+.logoHeader {
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	justify-content:space-around;
+	-webkit-align-items: center;
+	align-items:center;
+	width: 960px;
+	height: 110px;
+}
+#welcomeStatement {
+	width: 555px;
+}
+#largeLogo {
+	width: 375px;
+}
+.webTitleLink {
+	height: 110px;
+}
+a.webTitleLink:hover {
+	text-decoration: none;
+}
+.main {
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #ffffff;
+	border-radius: 0 0 5px 5px;
+}
+.hidden {
+	display: none;
+}
+.nav {
+	display: flex;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: flex-start;
+	-moz-justify-content: flex-start;
+	justify-content: flex-start;
+}
+#navMenu {
+	line-height: 1;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+	border-bottom: 2px solid #002080;
+	width: auto;
+}
+#navMenu button {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+	color: #000000;
+	font-family: 'Arvo', serif;
+	font-size:17px;
+	letter-spacing: 2px;
+	padding: 19px 20px;
+	text-decoration: none;
+	border: none;
+}
+#navMenu ul {
+	list-style: none;
+}
+#subMenu {
+	position: absolute;
+}
+#navMenu > ul > li > button.active,
+#navMenu > ul > li > button:hover {
+	color: #000000;
+	box-shadow: inset 0 0 3px #d9d9d9;
+	-moz-box-shadow: inset 0 0 3px #d9d9d9;
+	-webkit-box-shadow: inset 0 0 3px #d9d9d9;
+	background: #f2f2f2;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100% #f2f2f2));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+	background: -ms-linear-gradient(top, #ffff 0%, #f2f2f2 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
+}
+#navMenu > ul > li > ul > li > button {
+	background: #002080;
+	color: #ffffff;
+	font-size: 15px;
+	border-style: none;
+	border-bottom: 2px solid #000000;
+}
+#navMenu > ul > li > ul > li > button:hover {
+	background: #2e2ee3;
+}
+/*************************************/
 body {
 	font-family: 'Arvo' serif; 
 	font-size: 16px;
@@ -50,13 +174,6 @@ hr.style-one {
 	font-size: 20px;
 	font-family: 'Raleway', serif;
 	display: inline-block;
-}
-#main {
-	padding: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-	background-color: #ffffff;
-	border-radius: 0 0 5px 5px;
 }
 #calendar2 {
 	padding: 5px;
@@ -185,36 +302,10 @@ hr.style-one {
 #colorBox.popeJohnPaulII{
 	background: #009933;
 }
-#webTitleLink a:hover {
-	text-decoration: none;
-}
-#logoHeader {
-	height: 110px;
-}
-#foot01 {
+.foot01 {
 	font-family: 'Raleway';
 	margin-top: 20px;
 	color: #941313;
-}
-#shotokanLogo {
-	width:120px;
-	height:100px;
-	float:left;
-	clear:both;
-}
-#largeLogo {
-	float:left;
-	margin-left: 50px;
-	display: inline-block;
-	vertical-align:middle;
-}
-#welcomeStatement {
-	width: 450px;
-	height: 300px;
-	padding-top: 25px;
-	display: inline-block;
-	float:left;
-	vertical-align:middle;
 }
 #addressInfo {
 	color:black;
@@ -288,13 +379,18 @@ p {
 	font-family:Raleway;
 	color: black;
 }
-pre {
+p.dojoKun {
+	font-weight: bold;
+	font-style: italic;
+}
+/*pre {
 	font-size:15px;
 	font-family:Raleway;
 	font-style:italic;
 	font-weight:bold;
 	padding-left:50px;
-}
+	padding-right: 50px;
+}*/
 ul {
 	padding-left: 50px;
 	margin:0;
@@ -311,192 +407,10 @@ a.news {
 }
 a:hover {
 	text-decoration: underline;
-}
-#cssmenu ul,
-#cssmenu li,
-#cssmenu span,
-#cssmenu a {
-	margin: 0;
-	padding: 0;
-	position: relative;
-}
-#cssmenu {
-	line-height: 1;
-	border-radius: 5px 5px 0 0;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-	background: #ffffff;
-	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
-	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-	border-bottom: 2px solid #002080;
-	width: auto;
-}
-#cssmenu:after,
-#cssmenu ul:after {
-	content: '';
-	display: block;
-	clear: both;
-}
-#cssmenu a {
-	background: #ffffff;
-	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
-	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-	color: #ffffff;
-	display: block;
-	font-family: 'Arvo', serif;
-	letter-spacing: 2px;
-	padding: 19px 20px;
-	text-decoration: none;
-}
-#cssmenu ul {
-	list-style: none;
-}
-#cssmenu > ul > li {
-	display: inline-block;
-	float: left;
-	margin: 0;
-}
-#cssmenu.align-center {
-	text-align: center;
-}
-#cssmenu.align-center > ul > li {
-	float: none;
-}
-#cssmenu.align-center ul ul {
-	text-align: left;
-}
-#cssmenu.align-right > ul {
-	float: right;
-}
-#cssmenu.align-right ul ul {
-	text-align: right;
-}
-#cssmenu > ul > li > a {
-	color: #000000;
-	font-size: 17px;
-}
-#cssmenu > ul > li:hover:after {
-	content: '';
-	display: block;
-	width: 0;
-	height: 0;
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 10px solid #002080;
-	margin-left: -10px;
-}
-#cssmenu > ul > li:first-child > a {
-	border-radius: 5px 0 0 0;
-	-moz-border-radius: 5px 0 0 0;
-	-webkit-border-radius: 5x 0 0 0;
-}
-#cssmenu.align-right > ul > li:first-child > a,
-#cssmenu.align-center > ul > li:first-child > a {
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-}
-#cssmenu.align-right > ul > li:last-child > a {
-	border-radius: 0 5px 0 0;
-	-moz-border-radius: 0 5px 0 0;
-	-webkit-border-radius: 0 5px 0 0;
-}
-#cssmenu > ul > li.active > a,
-#cssmenu > ul > li:hover > a {
-	color: #000000;
-	box-shadow: inset 0 0 3px #d9d9d9;
-	-moz-box-shadow: inset 0 0 3px #d9d9d9;
-	-webkit-box-shadow: inset 0 0 3px #d9d9d9;
-	background: #f2f2f2;
-	background: -moz-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100% #f2f2f2));
-	background: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-	background: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
-	background: -ms-linear-gradient(top, #ffff 0%, #f2f2f2 100%);
-	background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
-}
-#cssmenu .has-sub {
-	z-index: 1;
-}
-#cssmenu .has-sub:hover > ul {
-	display: block;
-}
-#cssmenu .has-sub ul {
-	display: none;
-	position: absolute;
-	width: 200px;
-	top: 100%;
-	left: 0;
-}
-#cssmenu.align-right .has-sub ul {
-	left: auto;
-	right: 0;
-}
-#cssmenu .has-sub ul li {
-	*margin-bottom: -1px;
-}
-#cssmenu .has-sub ul li a {
-	background: #002080;
-	border-bottom: 2px solid #000000;
-	font-size: 15px;
-	filter: none;
-	display: block;
-	line-height: 120%;
-	padding: 10px; 
-	color: #ffffff;
-}
-#cssmenu .has-sub ul li:hover a {
-	background: #2e2ee3;
-}
-#cssmenu ul ul li:hover > a {
-       color: #ffffff;
-}
-#cssmenu .has-sub .has-sub:hover > ul {
-	display: block;
-}
-#cssmenu .has-sub .has-sub ul {
-	display: none;
-	position: absolute;
-	left: 100%;
-	top: 0;
-}
-#cssmenu.align-right .has-sub .has-sub ul,
-#cssmenu.align-right ul ul ul {
-	left: auto;
-	right: 100%;
-}
-#cssmenu .has-sub .has-sub ul li a {
-	background: #2e2ee3;
-	border-bottom: 2px solid #000000;
-}
-#cssmenu .has-sub .has-sub ul li a:hover {
-	background: #a1bddd;
-	color: #2e2ee3;
-	border-bottom: 2px solid #000000;
-}
-#cssmenu ul ul li.last > a,
-#cssmenu ul ul li:last-child > a,
-#cssmenu ul ul ul li.last > a, 
-#cssmenu ul ul ul li:last-child >a,
-#cssmenu .has-sub ul li:last-child > a,
-#cssmenu .has-sub ul li.last > a {
-	border-bottom: 0;
 }	  
 .highlight {
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
-
 #calendarDay.diffMonth {
 	background-color: #cce6ff;
 }
