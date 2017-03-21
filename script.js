@@ -17,10 +17,10 @@ document.getElementById("nav02").innerHTML =
 "</ul>" +
 "</div>";
 $("#aboutTab").mouseenter(function() {
-	$("#subMenu").slideDown();
+	$("#subMenu").slideDown("fast");
 });
 $("#aboutTab").mouseleave(function() {
-	$("#subMenu").slideUp();
+	$("#subMenu").slideUp("fast");
 });
 
 window.addEventListener('DOMContentLoaded', function() {
