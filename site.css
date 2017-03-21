@@ -31,6 +31,9 @@
 	width: 960px;
 	height: 110px;
 }
+.webTitleLink {
+	height: 110px;
+}
 a.webTitleLink:hover {
 	text-decoration: none;
 }
