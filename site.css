@@ -90,6 +90,9 @@ a.webTitleLink:hover {
 	color: #ffffff;
 	font-size: 15px;
 }
+#navMenu > ul > li > ul > li > button:hover {
+	background: #2e2ee3;
+}
 /*************************************/
 body {
 	font-family: 'Arvo' serif; 
