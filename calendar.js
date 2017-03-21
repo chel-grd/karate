@@ -555,7 +555,6 @@ var aprilHTML =
 	"</div>" +
 	"<div id='calendarDay' style='color:#009933'>" +
 	"<div id='dayNumber'>29</div>" +
-	"ISKF Sask Team Training: 1:00pm - 3:00pm" +
 	"</div>" +
 	"</div>" +
 	"<div id='week'>" +
