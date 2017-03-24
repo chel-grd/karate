@@ -1,4 +1,3 @@
-	
 $(".foot01").html("<p style='padding-left:0px;'>&copy; " + new Date().getFullYear() + " Saskatoon Shotokan Karate. All rights reserved.</p>");
 document.getElementById("nav02").innerHTML = 
 "<div id='navMenu'>" +
@@ -16,13 +15,20 @@ document.getElementById("nav02").innerHTML =
 "<li id='contactTab'><button id='contactButton' class='navButton'>Contact</button></li>" +
 "</ul>" +
 "</div>";
-$("#aboutTab").mouseenter(function() {
-	$("#subMenu").slideDown("fast");
+$(document).ready(function() {
+	$("#webTitle").mouseenter( function() {
+		$("#webTitle").addClass("highlight");
+	}),
+	$("#webTitle").mouseleave( function() {
+		$("#webTitle").removeClass("highlight");
+	});
+	$("#aboutTab").mouseenter(function() {
+		$("#subMenu").slideDown("fast");
+	});
+	$("#aboutTab").mouseleave(function() {
+		$("#subMenu").slideUp("fast");
+	});
 });
-$("#aboutTab").mouseleave(function() {
-	$("#subMenu").slideUp("fast");
-});
-
 window.addEventListener('DOMContentLoaded', function() {
 	var homeButton = document.getElementById("homeButton");
 	homeButton.addEventListener("click", function() {goToPage('home')});
